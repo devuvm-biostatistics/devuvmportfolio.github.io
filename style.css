@@ -1,4 +1,3 @@
-
 /* =========================================
    DEVU V M - BIOSTATISTICS PORTFOLIO
    ========================================= */
@@ -373,6 +372,16 @@ a {
 
 .timeline .content-card {
   box-shadow: none;
+}
+
+.timeline .content-card h3 {
+  font-size: 18px;
+}
+
+/* marksheet link inside education cards */
+.edu-link {
+  display: inline-block;
+  margin-top: 10px;
 }
 
 
