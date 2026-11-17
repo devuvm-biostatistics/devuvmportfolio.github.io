@@ -3,6 +3,7 @@
    DEVU V M - BIOSTATISTICS PORTFOLIO
    ========================================= */
 
+
 /* 1. GLOBAL SETTINGS */
 
 :root {
@@ -596,6 +597,28 @@ a {
   font-weight: 700;
 }
 
+/* CV CARD */
+
+.cv-document-card {
+  align-items: center;
+}
+
+.document-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.document-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.document-actions .text-link {
+  margin-top: 0;
+}
+
 
 /* 13. CONTACT */
 
@@ -788,5 +811,8 @@ a:focus-visible {
     padding: 17px;
   }
 
-}
+  .document-actions {
+    gap: 12px;
+  }
 
+}
